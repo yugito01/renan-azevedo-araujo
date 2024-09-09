@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluraflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aluraflix</h1>
+    </header>
+    <main>
+        <section class="video-gallery">
+            <!-- Vídeos -->
+            <div class="video-item" data-video="https://www.youtube.com/embed/5UVaA6SGRZA">
+                <img src="https://img.youtube.com/vi/5UVaA6SGRZA/hqdefault.jpg" alt="Vídeo 1" class="video-thumbnail">
+            </div>
+            <div class="video-item" data-video="https://www.youtube.com/embed/RWo_noebH7o">
+                <img src="https://img.youtube.com/vi/RWo_noebH7o/hqdefault.jpg" alt="Vídeo 2" class="video-thumbnail">
+            </div>
+            <!-- Adicione os outros vídeos aqui -->
+        </section>
+        <section class="video-detail">
+            <div class="video-player">
+                <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h2 id="video-title">Título do vídeo</h2>
+                <a id="watch-button" href="#" class="watch-button">Assistir Agora <span>&#9654;</span></a>
+            </div>
+        </section>
+        <section class="related-videos">
+            <h2>Relacionados</h2>
+            <div class="related-items">
+                <div class="related-item" data-video="https://www.youtube.com/embed/eg8RRqUzKbk">
+                    <img src="https://img.youtube.com/vi/eg8RRqUzKbk/hqdefault.jpg" alt="Best of R&B Classics 90s & 2000s">
+                    <h3>Best of R&B Classics 90s & 2000s</h3>
+                </div>
+                <div class="related-item" data-video="https://www.youtube.com/embed/a07qXFXjEDI">
+                    <img src="https://img.youtube.com/vi/a07qXFXjEDI/hqdefault.jpg" alt="Hip Hop Mix 2000">
+                    <h3>Hip Hop Mix 2000</h3>
+                </div>
+                <div class="related-item" data-video="https://www.youtube.com/embed/NYcHzYkMmxo">
+                    <img src="https://img.youtube.com/vi/NYcHzYkMmxo/hqdefault.jpg" alt="Rock 90s 2000s Playlist">
+                    <h3>Rock 90s 2000s Playlist</h3>
+                </div>
+                <!-- Adicione os outros vídeos relacionados aqui -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
